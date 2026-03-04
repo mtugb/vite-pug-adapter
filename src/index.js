@@ -5,7 +5,7 @@ const vite_pug_adapter = {
   configureServer: function (server) {
     server.middlewares.use(async (req, res, next) => {
       // normal page
-      if (/^\/[a-zA-Z]*$/.test(req.url)) {
+      if (/^\/[a-zA-Z0-9_-]*$/.test(req.url)) {
         const pug_path = req.url === "/" ? "/index" : req.url;
         try {
           let html = pug.renderFile(`${process.cwd()}${pug_path}.pug`);
