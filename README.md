@@ -10,7 +10,7 @@ A simple Vite plugin that serves Pug files directly without physical HTML files.
 ```bash
 npm install -D vite-pug-adapter pug
 ```
-```vite.config.js
+```javascript
 //vite.config.js
 // vite.config.js
 import vite_pug_adapter from 'vite-pug-adapter';
