@@ -1,3 +1,4 @@
+import pug from "pug";
 import process from "node:process";
 const vite_pug_adapter = {
   name: "vite-pug-adapter",
