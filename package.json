@@ -1,0 +1,28 @@
+{
+  "name": "vite-pug-adapter",
+  "version": "1.0.0",
+  "description": "vite put adapter",
+  "keywords": [
+    "vite",
+    "pug"
+  ],
+  "homepage": "https://github.com/mtugb/vite-pug-adapter#readme",
+  "bugs": {
+    "url": "https://github.com/mtugb/vite-pug-adapter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtugb/vite-pug-adapter.git"
+  },
+  "license": "ISC",
+  "author": "mtugb",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "vite": "^6.0.0",
+    "pug": "^3.0.0"
+  }
+}
