@@ -21,10 +21,11 @@ export default {
 ```
 
 ## Minimal Example
-Following is ready-to-run example below.
+Following is ready-to-run example.
 Try it by using ``npm run dev`` after cloning it.
+
 https://github.com/mtugb/-vite-pug-adapter-example1
 
 ## Caution
-This **only** compiles Pug files in your root dir, then if you need to put Pug files in other places such as /src, you should use anothor module.
+This **only** compiles Pug files in your root dir, then if you need to put Pug files in other places such as /src, you should use another module.
 
